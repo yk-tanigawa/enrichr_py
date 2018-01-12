@@ -16,7 +16,7 @@ setup(
     long_description=readme,
     author='Yosuke Tanigawa',
     author_email='info@yosuketanigawa.com',
-    install_requires=['numpy', 'json', 'requests', 'os'],
+    install_requires=['numpy', 'requests'],
     url='https://yosuketanigawa/software/enrichr_py',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
